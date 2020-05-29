@@ -147,8 +147,8 @@ class _CalendarState extends State<Calendar> {
       child: SimpleGestureDetector(
         onSwipeUp: _onSwipeUp,
         onSwipeDown: _onSwipeDown,
-        // onSwipeLeft: _onSwipeLeft,
-        // onSwipeRight: _onSwipeRight,
+        onSwipeLeft: null, //_onSwipeLeft,
+        onSwipeRight: null, //_onSwipeRight,
         swipeConfig: SimpleSwipeConfig(
           verticalThreshold: 10.0,
           horizontalThreshold: 40.0,
